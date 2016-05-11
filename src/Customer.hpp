@@ -25,7 +25,7 @@ public:
     void addRental(const Rental& rental);
 
     // customer rental statement
-    std::string statement() const;
+    std::string rentalstatement() const;
 	
 	//calculates amount for current statement
 	double amountFor(const Rental& r) const;

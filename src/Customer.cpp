@@ -55,7 +55,7 @@ void Customer::addRental(const Rental& rental) {
 	
 	
 // customer rental statement
-std::string Customer::statement() const {
+std::string Customer::rentalstatement() const {
 
     // customer name
     std::string result("Rental Record for ");
